@@ -1,3 +1,22 @@
-touch <file name>	to create a file
-cat><file name>		to write somthing on file[D[D[D[D[D[i[C[C[C[C[C[C[C
-cat <file name>		to know the content in the file
+Create a project on your local machine.
+*touch <file name>	to create a file
+*cat><file name>		to write somthing on file
+*cat <file name>		to know the content in the file
+
+GO TO GITHUB REPOSITORY 
+•	In the upper-right corner of any page, use the drop-down menu, and select new repository.
+•	Drop-down with option to create a new repository
+•	In the Repository name box, enter GIT_COMMANDS.
+•	In the Description box, write a short description.
+•	Select Add a README file.
+•	Select whether your repository will be Public or Private.
+
+Open the Git Bash go to the path where the project folder exists and type these commands
+•	git init      		      	(Initialize a local Git repository)
+•	git status               	(shows the status of changes as untracked, modified, or staged.)
+•	git add [file-name.txt] 	(Add a file to the staging area)
+•	git add .			            (Add all new and changed files to the staging area)
+•	git commit -m   "commit message"	(Commit changes)
+•	git remote add origin ssh://git@github.com/[username]/[repository-name].git   	(Add a remote repository)
+•	git push origin [branch name]	      (Push a branch to your remote repository)
+
